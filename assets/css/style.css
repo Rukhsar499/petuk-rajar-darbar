@@ -1,0 +1,1148 @@
+@font-face {
+  font-family: Barcelony;
+  src: url(../Barcelony.ttf);
+}
+* {padding: 0;
+	margin: 0;
+    box-sizing: border-box !important;
+   
+}
+#preloader{
+  background-color: #ffefe6 !important;
+  height: 100vh;
+  width: 100%;
+  z-index:1000;
+  position: fixed;
+  
+}
+.loader{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.rice{
+  width: 440px;
+  margin-top: 195px !important;
+  margin-left:-160px !important;
+}
+body{
+	background-color: #fff;
+/* background-image: linear-gradient(180deg, #FFF0E5 0%, #FFF0E5 40%);    */
+}
+.pt{
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+}
+p{
+	font-family: "Be Vietnam Pro", sans-serif !important;
+	font-weight: 400;
+	color: #8B8B8B;
+}
+.navbar-brand img{
+	width: 70px;
+}
+.navbar {
+  padding: 0px;
+}
+.navbar-brand{
+  padding-top: 0px;
+  padding-bottom: 0px !important;
+}
+.table>:not(caption)>*>* {
+    background-color:transparent;
+}
+header{
+	background-color: #ffefe6;
+  position: fixed;
+  width:100%;
+  z-index: 999;
+  transition: 0.5s;
+}
+
+.nav-link.active, .navbar-nav .show>.nav-link {
+  color:#000;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #000 !important;
+  
+}
+.nod{
+    margin-left: -64px !important;
+}
+.tan {
+ margin-left: -12px !important;
+ width: 300px;
+ margin-top: 127px !important;   
+}
+.table{
+  background-image: url(../img/booktablebg.jpg);
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+  height: auto;
+}
+.about-bnr{
+  background-image: url(../img/abt-baaner.jpg);
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  text-align: center;
+  height: 300px;
+}
+#about-t{
+  padding-top: 70px;
+  font-weight: 700;
+  font-family: "Black Han Sans", sans-serif;
+}
+.outer{
+  margin-bottom: 20px;
+}
+.cuisine{
+  background-color: #F8F8F8;
+  padding: 50px 0px;
+}
+h6{
+  font-family: Barcelony;
+  font-size: 24px;
+}
+.tele-box{
+  text-align: center;
+  padding: 20px;
+  border-right: 2px solid #00000080;
+}
+.teles-box{
+  text-align: center;
+  padding: 20px;
+ 
+}
+.tele-box img, .teles-box img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+.cont-img{
+  margin-top: 20px;
+}
+.form{
+  padding: 0px 20px 0px 20px;
+  background: transparent;
+}
+.form-control{
+  padding: 15px;
+  background-color: #F5F5F5;
+  border: 1px solid #00000042;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.banner{
+	background-image: url(../img/bg-image.jpg);
+  /* height: 600px; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+.food-img:hover{
+  background-color: #FFBF40;
+  color: #000;
+  transition: all .5s ease-in-out;
+}
+h1{
+	font-family: "Inter", sans-serif;
+}
+h2{
+  color: #C80807;
+  text-align: center;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 500 !important;
+  font-size: 30px;
+  padding-bottom: 8px;
+}
+.gallery{
+  background-color: #000;
+  padding: 30px 0px;
+}
+/* card overlay starts */
+.gallery-img {
+  position: relative;
+  width: 100%;
+ margin-bottom: 20px;
+}
+
+.rolls {
+  background-color: #C80807;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transform: rotate(-90deg);
+  margin-top: 100px;
+  /* font-family: "Black Han Sans", sans-serif; */
+  margin-left: -60px;
+  text-align: center;
+  font-weight: 600 !important;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000000a6;
+  
+}
+
+.gallery-img:hover .overlay {
+  opacity: 1;
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay img{
+  width: 50px;
+}
+
+/* card overlay stop */
+#t-cenet{
+  text-align: center;
+}
+#abyt{
+  color:#313131;
+  text-align: left;
+}
+.mb{
+	margin-bottom:50px;
+}
+h3{
+	font-size: 22px;
+}
+.menu-div ul li{
+   color: #3F3F3F;
+   list-style-type: none;
+   font-family: "Be Vietnam Pro", sans-serif !important;
+}
+.menu-div{
+  margin-top: 20px;
+}
+.menu-div ul{
+  padding-left: 0px;
+}
+.petuk{
+  margin-bottom: 0px;
+}
+.nav-link{
+	margin-right: 30px;
+	color: #969696;
+	font-family: "Black Han Sans", sans-serif;
+}
+.food-img{
+  background-image: url(../img/biryani-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: center;
+  background-position-x: center;
+  height:auto;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 20px;
+}
+.veg{
+    background-image: url(../img/veg-item-bg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-position: center;
+  background-position-y: center;
+  background-position-x: center;
+  height:auto; 
+}
+.nonveg{
+    background-image: url(../img/nonvegitembg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: center;
+  background-position-x: center;
+  height:auto; 
+}
+.tandori{
+    background-image: url(../img/tandooribg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+   background-position-y: center;
+    background-position-x: center;
+  height:auto; 
+}
+.go-top.active {
+  top: 98%;
+  -webkit-transform: translateY(-98%);
+  transform: translateY(-98%);
+  opacity: 1;
+  visibility: visible;
+}
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  right: 15px;
+  color: #fff;
+  background-color: #000;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .175);
+  border-radius: 10px;
+  text-align: center;
+  z-index: 4;
+  width: 40px;
+  height: 40px;
+  line-height: 39px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .9s;
+  transition: .9s;
+  
+}
+.order{
+  position: fixed;
+  display: block;
+  top:55%;
+  left: 3%;
+  cursor: pointer;
+  z-index: 999;
+}
+.fa-bag-shopping{
+  background-color: #C80807;
+  color: #fff;
+  font-size: 10px;
+  padding: 16px;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .175);
+}
+.go-top.active {
+  top: 95%;
+  -webkit-transform: translateY(-98%);
+  transform: translateY(-98%);
+  opacity: 1;
+  visibility: visible;
+}
+#para{
+  margin-bottom: 5px;
+}
+.banner-text{
+	padding-top: 50px;
+}
+.te{
+  width: 500px;
+ padding-bottom: 10px;
+}
+.banner-img{
+	text-align:center;
+}
+/* From Uiverse.io by doniaskima */ 
+.btn-31,
+.btn-31 *,
+.btn-31 :after,
+.btn-31 :before,
+.btn-31:after,
+.btn-31:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-31 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #C80807;
+  color: #fff;
+  cursor: pointer;
+  
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn-31:disabled {
+  cursor: default;
+}
+
+.btn-31:-moz-focusring {
+  outline: auto;
+}
+
+.btn-31 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-31 [hidden] {
+  display: none;
+}
+
+.btn-31 {
+  padding:8px 15px;
+  border-radius: 5px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.btn-31:before {
+  --progress: 100%;
+  background: #000;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+}
+
+.btn-31:hover:before {
+  --progress: 0%;
+}
+
+.btn-31 .text-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-31 .text {
+  display: flex;
+  font-weight: 600;
+  position: relative;
+}
+
+.btn-31:hover .text {
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+.text-container img{
+	width: 23px !important;
+	margin-left: 5px;
+}
+/* marquee starts */
+/* Container styles */
+.scrolling-text-container {
+  
+  overflow: hidden;
+}
+
+/* Inner container styles */
+.scrolling-text-inner {
+  display: flex;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+/* Text styles */
+.scrolling-text {
+  display: flex;
+}
+
+.scrolling-text-item {
+  padding: 0 30px;
+}
+
+/* Apply the animation to the text items */
+.scrolling-text-inner > div {
+  animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+/* Pause the animation when a user hovers over it */
+.scrolling-text-container:hover .scrolling-text-inner > div {
+  animation-play-state: paused;
+}
+
+/* Setting the Animation using Keyframes */
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+/* marquee ends */
+.aca-ad{
+  margin-top: 20px;
+}
+.d-center{
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+.about-text{
+	background-color: #F8F8F8;
+	height: 100%;
+	padding: 40px 40px 30px 30px;
+ 
+}
+.abt{
+	border-left: 5px solid #C80807;
+	padding-left: 10px;
+  height: 70px;
+  padding-top: 5px;
+}
+.thirty{
+	font-size: 26px;
+	color:#C80807;
+	font-weight: 800;
+	margin-bottom: 0px;
+}
+.vv{
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.footer{
+	background-color: #C80807;
+	padding: 40px 20px;
+}
+#white{
+	color:#fff;
+}
+.copy{
+	margin: 20px 0px;
+}
+.footr-txt{
+  border-right: 2px solid #fff;
+  padding-right: 20px;
+}
+.footr-txt h5, ul .footrd-txt h5, ul{
+  color:#fff;
+}
+.footr-txt ul, .footrd-txt ul{
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+.footr-txt li, .footrd-txt li{
+  padding-bottom: 5px;
+}
+.footrd-txt li{
+  padding-bottom: 10px;
+}
+.s-iconss span{
+  padding-right: 8px;
+}
+.s-iconss{
+  padding-top: 10px;
+}
+.lin{
+  padding-left: 20px;
+}
+.gallery_sec{
+  width:100%;
+  padding:80px 0;
+}
+.heading{
+  width:100%;
+  text-align:center;
+}
+.heading h2{
+  font-size:30px;
+  font-weight:bold;
+  border-bottom:2px solid #000;
+  padding-bottom:25px;
+}
+.gallery_sec img{
+  width:100%;
+  margin-bottom:30px;
+  height:250px;
+}
+
+.gallery_sec a {
+    position: relative;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+
+.gallery_sec a::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+  top:45%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.gallery_sec img {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.gallery_sec a:hover img {
+    position: relative;
+    width: 100%;
+}
+
+.gallery_sec a:hover img {
+    opacity: 0.2;
+}
+
+.gallery_sec a:hover::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: url(https://i.ibb.co/3fMkjjF/Resize.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+/* tab strats */
+#tab-button {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  #tab-button li {
+	display: table-cell;
+	width: 20%;
+  }
+  .tab-button-outer{
+    margin-bottom: 30px;
+  }
+  #tab-button li a {
+	display: block;
+	padding: 20px;
+	background: #F0EFEF;
+  border-radius: 10px;
+	text-align: center;
+	color: #A2A2A2;
+	text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  }
+  
+  #tab-button li a:hover,
+  #tab-button .is-active a {
+	border-bottom-color: transparent;
+	background: #C40010;
+	color:#fff;
+  }
+  #tab-button li a{
+    margin-right: 10px;
+}
+  .tab-contents {
+	padding: .5em 2em 1em;
+	
+  }
+  .tab-button-outer {
+	display: none;
+  }
+  .tab-contents {
+	margin-top: 20px;
+  }
+  
+  @media screen and (min-width: 640px) {
+	.tab-button-outer {
+	  position: relative;
+	  z-index: 2;
+	  display: block;
+	}
+	.tab-select-outer {
+	  display: none;
+	}
+	.tab-contents {
+	  position: relative;
+	  top: -1px;
+	  margin-top: 0;
+	}
+  }
+  /* tab end */
+  .tab-img img{
+    margin-bottom: 20px;
+  }
+.visit-img{
+  margin-bottom: 20px;
+}
+#ish{
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ser-vice{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+h5{
+  font-family: "Be Vietnam Pro", sans-serif !important;
+	font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.service-box{
+  background-color: #F4F4F4;
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+  width: 200px;
+}
+.service-box:hover{
+  background-color: #C80807;
+  color:#fff;
+}
+.service-box p:hover{
+  color:#fff;
+}
+.service-box img{
+  width: 60px;
+}
+.service-box img{
+  margin-bottom: 10px;
+}
+.fa-seedling, .fa-bell-concierge, .fa-kitchen-set, .fa-utensils, .fa-pump-medical{
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+.reviews{
+  background-color: #F9F9F9;
+  padding: 40px 0px;
+  text-align: center;
+}
+.reveiws-img{
+  padding: 20px;
+}
+.fa-play{
+  color: #C40010;
+}
+
+.fa-star{
+  color: #C40010;
+}
+.reviews img{
+  padding-bottom: 20px;
+  display: block;
+  width: 10% !important;
+  margin: auto;
+}
+
+/* second section start */
+.food-img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.images {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top:30px;
+}
+
+.overlays {
+  position: absolute; 
+  bottom: -5%; 
+  left: 50%;
+  transform: translate(-50%,-90%);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 12px;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.food-img:hover .overlays {
+  opacity: 1;
+}
+/* second section ends */
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 6px;
+  margin: 7px 4px;
+  background-color: #E9E9E9;
+   display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #C80807;
+}
+.owl-carousel .owl-dots{
+  display: block !important;
+}
+.owl-dots {
+  position: absolute;
+  bottom: -10%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.food .owl-dots {
+  bottom: -6%;
+}
+.food-img img{
+  margin-bottom: 30px;
+}
+#biryam {
+  margin-top: 10px;
+  
+}
+.item-image{
+  margin-bottom: 20px;
+}
+.review{
+  background-color: #000;
+  padding: 40px 0px;
+}
+.video-anc::before {
+  background-color: #C80807;
+  border-radius: 3px;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 150px;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: transform 300ms ease;
+  width: 150px;
+  z-index: -1;
+  opacity: 1;
+}
+.video-anc {
+  position: relative;
+  z-index: 20;
+  transition: all .5s ease;
+}
+.vidoe-img {
+  transition: all .5s ease;
+}
+.video-anc:hover .vidoe-img {
+  transform: scale(1.09);
+  transition: all .5s ease;
+}
+.video-info {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  user-select: none;
+  z-index: 99;
+  transition: all .5s ease;
+}
+.video-anc:hover::before {
+  transform: translate3d(-30px, -35px, 0);
+  opacity: 1;
+}
+.video-gallery {
+  padding: 5vh 10px 10vh;
+  gap: 40px;
+ 
+  overflow-y: hidden;
+}
+.banner:before {
+  content: "";
+  position: absolute;
+  height: 260px;
+  width: 130px;
+  background-color: #C80807;
+  top: 0%;
+  left: 26%;
+}
+
+.modal-content{
+  background-image: url()
+}
+.modal-header {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  border-bottom: 0;
+}
+#book{
+  font-size: 30px;
+  text-align: center;
+  color:#FED500;
+  font-family: "Black Han Sans", sans-serif;
+}
+.slide-img{
+  margin-top: -60px;
+}
+.modal-content{
+  background-image: url(../img/fooddoodles1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.submit{
+  background-color:#FED500;
+  color:#C40010;
+  border: none;
+  font-family: "Black Han Sans", sans-serif;
+}
+.modal-header .btn-close {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  margin-top: -22px;
+}
+.modal-body{
+  padding: 0px;
+}
+.rol {
+ margin-top: 50px;
+ margin-left: 0px;
+}
+.bottom-button{
+  display:none;
+}
+@media (max-width: 1500px) and (min-width: 1400px){
+  .banner:before {
+    left: 19%;
+  }
+  .overlays {
+  font-size: 10px;
+  padding: 5px 9px;
+  
+}
+}
+@media screen and (max-width: 767px) {
+  .tele-box {
+    border-bottom: 2px solid #00000080;
+    border-right: none;
+}
+.overlays {
+  bottom: -7%;
+}
+#about-t{
+  color: #fff;
+  font-size: 26px;
+}
+.food .owl-dots {
+  bottom: -2%;
+}
+h2{
+  font-size: 24px;
+}
+.tabs select {
+  word-wrap: normal;
+  width: 100%;
+  padding: 10px;
+  background-color: #C80807;
+  color: #fff;
+}
+.footr-txt {
+  border-right: none;
+  padding-right: 0px;
+}
+.footer {
+  padding: 20px 5px;
+}
+.lin {
+  padding-left: 0px;
+}
+.s-iconss{
+  margin-bottom: 20px;
+}
+.service-box {
+  margin-bottom: 20px;
+  width:100%;
+}
+.banner:before {
+  left: 35%;
+}
+.banner {
+  background-image: none;
+  background-color: #FFEFE6;
+   height:auto;
+  } 
+  .reviews img {
+  width: 30% !important;
+  }
+  .madal-img{
+    display: none;
+  }
+  #book {
+    font-size: 24px;
+  }
+  .te{
+    width: 320px;
+    padding-bottom: 0px;
+  }
+  h3 {
+    font-size: 16px;
+}
+.g-img{
+  display:none;
+}
+.about-text {
+  padding: 20px;
+}
+.thirty {
+  font-size: 20px;
+}
+p{
+  font-size: 13px;
+}
+.item-image {
+  margin-bottom: 40px;
+}
+.rolls {
+  transform: rotate(0deg);
+  margin-top: 25px;
+  margin-left: 0px;
+}
+.navbar-toggler{
+  border: none;
+}
+.menu-div ul li{
+  font-size: 12px;
+  color: #8B8B8B;
+}
+.bottom-button{
+	display: block;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+  
+}
+.order{
+ display: none;
+}
+.whatsapp-btn, .apply-btn{
+  border: none;
+  color: #000;
+  padding: 5px;
+  background-color: #FFEFE6;
+  border-right: 1px solid #0000003a;
+  text-align: center;
+}
+.phone-btn{
+  background-color: #C80807;
+  font-size: 25px;
+  width: 125px;
+  padding: 5px;
+  border:none;
+ } 
+ .whatsapp-btn{
+    font-size: 25px;
+    width: 125px;
+ } 
+ .apply-btn {
+   font-size: 18px;
+    width: 180px;
+    font-weight: 600;
+    font-family: Barcelony;
+}
+.go-top.active {
+  top: 90%;
+}
+.cuisine-img{
+  margin-bottom: 20px;
+}
+h6{
+  margin-bottom: 10px;
+}
+.copy{
+  margin-bottom: 70px;
+}
+.rice{
+  width: 100%;
+  margin-top: 20px !important;
+}
+}
